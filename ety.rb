@@ -33,7 +33,7 @@ class Etymology
   end
 
   def query(query)
-    results = `ag --vimgrep "<b>#{query}" #{@files_dir}/*.txt`
+    results = `ag --vimgrep "<b>.*(#{query}).*<\/b>" #{@files_dir}/*.txt`
     return parse_output(results)
   end
 
