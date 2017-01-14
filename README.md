@@ -9,9 +9,8 @@ Med hjälp av skriptet går det snabbt, och enkelt att ta reda på ursprunget f�
 
 ### Installation
 
-* Ladda ner datamaterial [här](http://runeberg.org/download.pl?mode=txtzip&work=svetym) och packa upp till valfri katalog.
 * Klona det här repot och lägg ety.rb någonstans i din PATH (eller gör en symlänk till `./ety`).
-* Editera ety.rb och ändra sökvägen till Pages-katalogen (värdet för variabeln `@files_dir`
+* Ladda ner datamaterial [här](http://runeberg.org/download.pl?mode=txtzip&work=svetym) och packa upp så du har en "Pages"-katalog i samma katalog som skriptet.
 * Installera [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) (på Mac enklast: `brew install the_silver_searcher`). Detta program är vad som gör att det går så snabbt att söka.
 
 

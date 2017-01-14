@@ -18,7 +18,7 @@ end
 class Etymology
 
   def initialize
-    @files_dir = "/Users/ciryon/Documents/Coding/Ruby/etymologi/Pages" # Change this to your data dir
+    @files_dir = "#{__dir__}/Pages" # Change this to your data dir
     @text_files = read_files()
     @found_files = Hash.new
   end
